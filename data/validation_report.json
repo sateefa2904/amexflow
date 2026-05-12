@@ -1,0 +1,17 @@
+{
+  "run_id": "325ec2e6",
+  "executed_at": "2026-05-12T01:21:23.785819",
+  "input_file": "data/raw_transactions.csv",
+  "total_records": 2000,
+  "clean_records": 1945,
+  "quarantined_records": 55,
+  "pass_rate_pct": 97.25,
+  "total_errors": 75,
+  "total_warnings": 26,
+  "error_breakdown": {
+    "NULL_FIELD": 45,
+    "INVALID_AMOUNT": 30
+  },
+  "sla_target_pass_rate_pct": 90.0,
+  "sla_met": true
+}

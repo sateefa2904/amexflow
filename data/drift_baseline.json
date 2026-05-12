@@ -1,0 +1,81 @@
+{
+  "computed_at": "2026-05-12T06:13:04.727971",
+  "record_count": 1944,
+  "numeric_stats": {
+    "amount_usd": {
+      "mean": 317.6491,
+      "std": 570.637,
+      "min": 5.03,
+      "max": 8031.63,
+      "count": 1944
+    },
+    "cardholder_avg_spend": {
+      "mean": 257.3624,
+      "std": 139.4616,
+      "min": 21.56,
+      "max": 489.43,
+      "count": 1944
+    }
+  },
+  "categorical_distributions": {
+    "merchant_category": {
+      "Food & Beverage": 0.2094,
+      "Retail": 0.1934,
+      "Technology": 0.1327,
+      "Entertainment": 0.124,
+      "Travel": 0.1235,
+      "Transportation": 0.0772,
+      "Healthcare": 0.071,
+      "Fuel": 0.0689
+    },
+    "card_type": {
+      "Blue Cash": 0.2639,
+      "Green": 0.2515,
+      "Gold": 0.2459,
+      "Platinum": 0.2387
+    },
+    "status": {
+      "approved": 0.8498,
+      "declined": 0.0936,
+      "pending": 0.0566
+    },
+    "country_code": {
+      "US": 0.5772,
+      "GB": 0.2181,
+      "CA": 0.1857,
+      "AU": 0.0051,
+      "FR": 0.0041,
+      "CN": 0.0041,
+      "RU": 0.0036,
+      "DE": 0.0021
+    }
+  },
+  "null_rates": {
+    "transaction_id": 0.0,
+    "timestamp": 0.0,
+    "merchant_name": 0.0,
+    "amount_usd": 0.0
+  },
+  "schema_columns": [
+    "transaction_id",
+    "timestamp",
+    "card_type",
+    "merchant_name",
+    "merchant_category",
+    "amount_usd",
+    "currency",
+    "status",
+    "country_code",
+    "is_international",
+    "cardholder_id",
+    "cardholder_home_country",
+    "cardholder_typical_category",
+    "cardholder_avg_spend",
+    "_injected_fraud_flags",
+    "_run_id",
+    "_validated_at",
+    "_validation_errors",
+    "_validation_warnings",
+    "_is_valid"
+  ]
+}

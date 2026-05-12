@@ -1,0 +1,11 @@
+{
+  "run_type": "drift_check",
+  "computed_at": "2026-05-12T01:21:23.792412",
+  "baseline_date": "2026-05-12T06:13:04.727971",
+  "record_count": 1945,
+  "alerts": [],
+  "warnings": [],
+  "drift_detected": false,
+  "alert_count": 0,
+  "warning_count": 0
+}

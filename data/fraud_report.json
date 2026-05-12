@@ -1,0 +1,17 @@
+{
+  "total_scored": 1945,
+  "flagged_for_review": 10,
+  "flag_rate_pct": 0.51,
+  "risk_tier_distribution": {
+    "LOW": 1874,
+    "MEDIUM": 61,
+    "HIGH": 10,
+    "CRITICAL": 0
+  },
+  "signal_breakdown": {
+    "CATEGORY_DEVIATION": 517,
+    "SPEND_OUTLIER": 51,
+    "GEO_IMPOSSIBLE": 49
+  },
+  "high_critical_count": 10
+}

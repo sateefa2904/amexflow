@@ -1,0 +1,8 @@
+{
+  "run_id": "325ec2e6",
+  "loaded_at": "2026-05-12T01:21:23.983217",
+  "records_loaded": 1945,
+  "records_skipped": 0,
+  "target_db": "data/amexflow.db",
+  "target_table": "transactions"
+}
